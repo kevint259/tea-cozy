@@ -1,4 +1,34 @@
 /* UNIVERSAL STYLE */
 * {
-  
+
+}
+
+div {
+  border: 1px solid white;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
 }
