@@ -1,34 +1,46 @@
 /* UNIVERSAL STYLE */
 * {
-
+  color: seashell;
 }
 
 div {
-  border: 1px solid white;
+  border: 1px solid pink;
 }
 
 /* HEADER */
 
-header {
+.container {
   display: flex;
-  background-color: black;
-  width: 100%;
+  margin: 0 auto;
   height: 69px;
+  align-items: center;
+  background-color: black;
   z-index: 1;
   border-bottom: 1px solid seashell;
   position: fixed;
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
   opacity: 0.9;
+  width: 100%;
 }
 
 .logo {
   display: flex;
-  align-items: center;
   padding-left: 10px;
+  align-items: center;
 }
 
 .logo img {
   height: 50px;
+}
+
+.navigation {
+  display: flex;
+  padding-right: 20px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navigation div {
+  margin: 10px 15px;
 }
