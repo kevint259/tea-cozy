@@ -63,3 +63,30 @@ nav a {
   width: 1200px;
   background-color: black;
 }
+
+/* MONTHLY TEA SECTION */
+
+.monthly {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.photos {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tea {
+  margin: 10px;
+  padding: 5px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
