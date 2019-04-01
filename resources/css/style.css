@@ -70,7 +70,7 @@ nav a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  height: 800px;
 }
 
 .photos {
@@ -90,3 +90,5 @@ nav a {
   height: 200px;
   width: 300px;
 }
+
+/* LOCATIONS SECTION */
