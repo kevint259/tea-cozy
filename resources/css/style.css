@@ -47,7 +47,6 @@ nav a {
   flex-direction: column;
 }
 
-
 .mission {
   display: flex;
   align-items: center;
@@ -91,4 +90,30 @@ nav a {
   width: 300px;
 }
 
+
 /* LOCATIONS SECTION */
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+  background-image: url('../images/locations.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+
+
+
+div {
+  border: 1px solid white;
+}
