@@ -124,7 +124,16 @@ nav a {
   width: 300px;
 }
 
-/*
-div {
-  border: 1px solid white;
-} */
+/* CONTACT INFO */
+
+.contact {
+  height: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+}
