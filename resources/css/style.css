@@ -90,7 +90,6 @@ nav a {
   width: 300px;
 }
 
-
 /* LOCATIONS SECTION */
 
 .location {
@@ -104,6 +103,11 @@ nav a {
   background-repeat: no-repeat;
 }
 
+.location h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .address {
   display: flex;
   align-items: center;
@@ -111,9 +115,16 @@ nav a {
   padding-top: 15px;
 }
 
+.place {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 300px;
+}
 
-
-
+/*
 div {
   border: 1px solid white;
-}
+} */
