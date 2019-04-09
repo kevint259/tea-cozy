@@ -39,7 +39,7 @@ nav a {
 
 /* CONTENT */
 
-.content {
+main {
   position: relative;
   top: 70px;
   display: flex;
@@ -47,7 +47,7 @@ nav a {
   flex-direction: column;
 }
 
-.mission {
+#mission {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +65,7 @@ nav a {
 
 /* MONTHLY TEA SECTION */
 
-.monthly {
+#monthly {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -92,7 +92,7 @@ nav a {
 
 /* LOCATIONS SECTION */
 
-.location {
+#location {
   display: flex;
   align-items: center;
   justify-content: center;
